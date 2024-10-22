@@ -1,0 +1,6 @@
+MMOEngine
+luacov.report.out
+luacov.stats.out
+.vscode/c_cpp_properties.json
+.vscode/
+.fake
