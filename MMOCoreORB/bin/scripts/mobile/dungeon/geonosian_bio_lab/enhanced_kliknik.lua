@@ -2,15 +2,15 @@ enhanced_kliknik = Creature:new {
 	objectName = "@mob/creature_names:geonosian_kliknik_force_strong",
 	socialGroup = "geonosian_creature",
 	faction = "",
-	level = 109,
-	chanceHit = 2.2,
+	level = 170,
+	chanceHit = 4.75,
 	damageMin = 675,
 	damageMax = 1060,
 	baseXp = 10360,
-	baseHAM = 34000,
-	baseHAMmax = 42000,
-	armor = 2,
-	resists = {40,40,10,195,-1,110,110,10,-1},
+	baseHAM = 60000,
+	baseHAMmax = 61000,
+	armor = 1,
+	resists = {40,40,10,195,30,110,110,10,-1},
 	meatType = "meat_carnivore",
 	meatAmount = 45,
 	hideType = "hide_scaley",
@@ -28,13 +28,15 @@ enhanced_kliknik = Creature:new {
 	templates = {"object/mobile/kliknik.iff"},
 	scale = 1.4,
 	lootGroups = {
-	 {
-	        groups = {
-				{group = "geo_kliknik", chance = 10000000}
-			},
-			lootChance = 3180000
-		}
-	},
+		{
+			   groups = {
+				   {group = "geo_kliknik", chance = 7000000},
+				   {group = "clothing_attachments", chance = 1500000},
+				   {group = "armor_attachments", chance = 1500000},
+			   },
+			   lootChance = 5000000
+		   }
+	   },
 	weapons = {"creature_spit_heavy_flame"},
 	conversationTemplate = "",
 	attacks = {

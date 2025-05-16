@@ -53,6 +53,19 @@ WarningShotCommand = {
 
 	poolsToDamage = RANDOM_ATTRIBUTE,
 
+	stateEffects = {
+		StateEffect( 
+		  INTIMIDATE_EFFECT, 
+		  {}, 
+		  {}, 
+		  {}, 
+		  100, 
+		  0, 
+		  30 
+		)
+	  },
+  
+
 	animation = "fire_area", 
 	animType = GENERATE_INTENSITY,
 

@@ -30,14 +30,16 @@ tusken_executioner = Creature:new {
 		{
 			groups = {
 				{group = "junk", chance = 1500000},
-				{group = "tusken_common", chance = 3000000},
-				{group = "wearables_scarce", chance = 2000000},
-				{group = "bone_armor", chance = 750000},
-				{group = "chitin_armor", chance = 750000},
+				{group = "tusken_common", chance = 2920000},
+				{group = "wearables_scarce", chance = 1920000},
+				{group = "bone_armor", chance = 670000},
+				{group = "chitin_armor", chance = 670000},
 				{group = "armor_attachments", chance = 500000},
 				{group = "clothing_attachments", chance = 500000},
-				{group = "color_crystals", chance = 500000},
-				{group = "power_crystals", chance = 500000}
+				{group = "color_crystals", chance = 600000},
+				{group = "power_crystals", chance = 600000},
+				{group = "named_color_crystals", chance = 100000},
+				{group = "house_loot_schems", chance = 20000}
 			}
 		}
 	},

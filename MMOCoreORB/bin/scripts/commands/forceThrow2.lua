@@ -46,7 +46,7 @@ ForceThrow2Command = {
 
 	minDamage = 250,
 	maxDamage = 500,
-	speed = 4.0,
+	speed = 2.5,
 	forceCost = 56,
 	visMod = 25,
 	accuracySkillMod = "forcethrow_accuracy",
@@ -73,10 +73,10 @@ ForceThrow2Command = {
 	forceAttack = true,
 	damageType = KINETIC_DAMAGE,
 
-	frsLightMinDamageModifier = 3,
-	frsLightMaxDamageModifier = 6,
-	frsDarkMinDamageModifier = 3,
-	frsDarkMaxDamageModifier = 6,
+	frsLightMinDamageModifier = 30,
+	frsLightMaxDamageModifier = 40,
+	frsDarkMinDamageModifier = 30,
+	frsDarkMaxDamageModifier = 40,
 
 	range = 32
 }

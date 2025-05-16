@@ -17,7 +17,8 @@ krayt_dragon_adolescent = Creature:new {
 	hideAmount = 750,
 	boneType = "bone_mammal",
 	boneAmount = 675,
-	milk = 0,
+	milkType = "milk_wild",
+	milk = 2000,
 	tamingChance = 0,
 	ferocity = 30,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
@@ -31,10 +32,10 @@ krayt_dragon_adolescent = Creature:new {
 	lootGroups = {
 		{
 	        groups = {
-				{group = "krayt_tissue_rare", chance = 4000000},
-				{group = "krayt_dragon_common", chance = 1500000},
+				{group = "krayt_tissue_rare", chance = 5500000},
+				{group = "krayt_dragon_common", chance = 1000000},
 				{group = "krayt_pearls", chance = 2500000},
-				{group = "armor_all", chance = 2000000},
+				{group = "weapons_all", chance = 1000000},
 			},
 			lootChance = 10000000
 		}
@@ -42,8 +43,8 @@ krayt_dragon_adolescent = Creature:new {
 	weapons = {},
 	conversationTemplate = "",
 	attacks = {
-		{"creatureareacombo",""},
-		{"creatureareaknockdown",""}
+		{"creatureareacombo","stateAccuracyBonus=100"},
+		{"creatureareaknockdown","stateAccuracyBonus=100"}
 	}
 }
 

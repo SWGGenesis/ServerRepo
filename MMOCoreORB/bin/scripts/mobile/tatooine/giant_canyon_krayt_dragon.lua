@@ -17,7 +17,8 @@ giant_canyon_krayt_dragon = Creature:new {
 	hideAmount = 870,
 	boneType = "bone_mammal",
 	boneAmount = 805,
-	milk = 0,
+	milkType = "milk_wild",
+	milk = 2500,
 	tamingChance = 0,
 	ferocity = 20,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
@@ -34,8 +35,8 @@ giant_canyon_krayt_dragon = Creature:new {
 	        groups = {
 				{group = "krayt_dragon_common", chance = 2500000},
 				{group = "krayt_tissue_uncommon", chance = 2000000},
-				{group = "krayt_pearls", chance = 1500000},
-				{group = "armor_all", chance = 2000000},
+				{group = "krayt_pearls", chance = 2500000},
+				{group = "armor_all", chance = 1000000},
 				{group = "weapons_all", chance = 2000000},
 			},
 			lootChance = 7000000

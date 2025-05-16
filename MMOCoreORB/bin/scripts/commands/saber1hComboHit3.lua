@@ -44,7 +44,7 @@
 Saber1hComboHit3Command = {
         name = "saber1hcombohit3",
 
-	damageMultiplier = 3.5,
+	damageMultiplier = 5.5,
 	speedMultiplier = 3,
 	healthCostMultiplier = 0,
 	actionCostMultiplier = 0,
@@ -54,18 +54,6 @@ Saber1hComboHit3Command = {
 
 	animation = "showoff_1", 
 	animType = GENERATE_INTENSITY,
-
-	stateEffects = {
-	  StateEffect( 
-		POSTUREDOWN_EFFECT, 
-		{ "postureDownRecovery" }, 
-		{ "posture_change_down_defense" }, 
-		{},
-		40, 
-		0, 
-		0 
-	  )
-	},
 
 	combatSpam = "saber1hcombohit3",
 

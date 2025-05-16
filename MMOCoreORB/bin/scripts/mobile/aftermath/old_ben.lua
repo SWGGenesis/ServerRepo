@@ -1,0 +1,35 @@
+old_ben = Creature:new {
+    customName = "Ben Kenobi",
+	socialGroup = "self",
+	faction = "rebel",
+	level = 300,
+	chanceHit = 30,
+	damageMin = 2645,
+	damageMax = 5000,
+	baseXp = 999999,
+	baseHAM = 1106000,
+	baseHAMmax = 1352000,
+	armor = 3,
+	resists = {95,95,95,95,95,95,95,95,100},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 0,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = PACK + HERD + KILLER,
+	optionsBitmask = AIENABLED,
+	diet = HERBIVORE,
+
+	templates = {"object/mobile/obi_wan_ghost_static.iff"},
+	lootGroups = {},
+	weapons = {"light_jedi_weapons"},
+	conversationTemplate = "",
+	attacks = merge(lightsabermaster,forcepowermaster,enhancermaster,healermaster)
+}
+
+CreatureTemplates:addCreatureTemplate(old_ben, "old_ben")

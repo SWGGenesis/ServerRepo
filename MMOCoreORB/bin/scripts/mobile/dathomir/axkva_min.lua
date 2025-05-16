@@ -6,7 +6,7 @@ axkva_min = Creature:new {
 	chanceHit = 30,
 	damageMin = 1645,
 	damageMax = 3000,
-	specialDamageMult = 5.0,
+	specialDamageMult = 6.0,
 	baseXp = 28549,
 	baseHAM = 385000,
 	baseHAMmax = 471000,
@@ -30,11 +30,14 @@ axkva_min = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "power_crystals", chance = 2500000},
-				{group = "nightsister_common", chance = 3000000},
-				{group = "armor_attachments", chance = 1500000},
-				{group = "clothing_attachments", chance = 1500000},
-				{group = "wearables_rare", chance = 1500000}
+				{group = "power_crystals", chance = 2430000},
+				{group = "nightsister_common", chance = 2930000},
+				{group = "armor_attachments", chance = 1430000},
+				{group = "clothing_attachments", chance = 1430000},
+				{group = "weapons_all", chance = 1430000},
+				{group = "house_loot_schems", chance = 50000},
+				{group = "named_color_crystals", chance = 300000}
+
 			},
 			lootChance = 10000000
 		},

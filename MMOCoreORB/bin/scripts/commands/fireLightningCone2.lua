@@ -50,19 +50,19 @@ FireLightningCone2Command = {
 	actionCostMultiplier = 1,
 	mindCostMultiplier = 1,
 	accuracyBonus = 95,
-
+	
 	stateEffects = {
-	  StateEffect( 
-		DIZZY_EFFECT, 
-		{}, 
-		{ "dizzy_defense", "resistance_states" }, 
-		{ "jedi_state_defense" }, 
-		100, 
-		0, 
-		10 
-	  )
-	},
-
+		StateEffect( 
+		  DIZZY_EFFECT, 
+		  {}, 
+		  { "dizzy_defense", "resistance_states" }, 
+		  { "jedi_state_defense" }, 
+		  100, 
+		  0, 
+		  10 
+		)
+	  },
+  
 	animation = "fire_5_special_single",
 	animType = GENERATE_INTENSITY,
 

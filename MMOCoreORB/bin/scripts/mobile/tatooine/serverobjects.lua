@@ -310,3 +310,6 @@ includeFile("tatooine/wuher.lua")
 includeFile("tatooine/young_mos_taike_guard.lua")
 includeFile("tatooine/young_mountain_squill.lua")
 includeFile("tatooine/zucca_boar.lua")
+
+-- new NPCs
+includeFile("tatooine/boba_fett_boss.lua")

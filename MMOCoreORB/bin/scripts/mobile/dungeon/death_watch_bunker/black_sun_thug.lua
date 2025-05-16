@@ -32,9 +32,9 @@ black_sun_thug = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 6500000},
-				{group = "bounty_hunter_armor", chance = 1500000},
-				{group = "jetpack_base", chance = 1000000},
+				{group = "junk", chance = 8750000},
+				{group = "bounty_hunter_armor", chance = 150000},
+				{group = "jetpack_base", chance = 100000},
 				{group = "wearables_common", chance = 500000},
 				{group = "wearables_uncommon", chance = 500000}
 			}

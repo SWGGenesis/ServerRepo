@@ -32,12 +32,12 @@ dark_adept = Creature:new {
 		{
 			groups = {
 				{group = "power_crystals", chance = 400000},
-				{group = "color_crystals", chance = 1000000},
-				{group = "named_color_crystals", chance = 1000000},
+				{group = "color_crystals", chance = 1050000},
+				{group = "named_color_crystals", chance = 50000},
 				{group = "pistols", chance = 1600000},
 				{group = "melee_weapons", chance = 1300000},
 				{group = "armor_attachments", chance = 1300000},
-				{group = "clothing_attachments", chance = 1300000},
+				{group = "clothing_attachments", chance = 2200000},
 				{group = "carbines", chance = 1300000},
 				{group = "wearables_rare", chance = 800000}
 			}

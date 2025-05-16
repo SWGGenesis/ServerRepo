@@ -44,7 +44,7 @@
 UnderHandShotCommand = {
         name = "underhandshot",
 
-	damageMultiplier = 3.0,
+	damageMultiplier = 4.5,
 	speedMultiplier = 1.5,
 	healthCostMultiplier = 1,
 	actionCostMultiplier = 1,
@@ -67,7 +67,7 @@ UnderHandShotCommand = {
 
 	combatSpam = "underhandshot",
 	
-	weaponType = CARBINEWEAPON,
+	weaponType = RANGEDWEAPON,
 
 	range = -1
 }

@@ -49,6 +49,7 @@ Saber2hHit3Command = {
 	healthCostMultiplier = 0,
 	actionCostMultiplier = 0,
 	mindCostMultiplier = 0,
+	accuracyBonus = 25,
 	forceCostMultiplier = 2.0,
 	visMod = 25,
 
@@ -82,7 +83,7 @@ Saber2hHit3Command = {
 	  )
 	},
 
-	animation = "showoff_3", 
+	animation = "combo_jedi_1", 
 	animType = GENERATE_INTENSITY,
 
 	combatSpam = "saber2hhit3",

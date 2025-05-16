@@ -44,7 +44,7 @@
 FullAutoSingle2Command = {
         name = "fullautosingle2",
 
-	damageMultiplier = 3.5,
+	damageMultiplier = 5.5,
 	speedMultiplier = 1.5,
 	healthCostMultiplier = 2.0,
 	actionCostMultiplier = 2.5,
@@ -62,25 +62,25 @@ FullAutoSingle2Command = {
 		{}, 
 		{ "dizzy_defense" }, 
 		{ "jedi_state_defense", "resistance_states" },
-		30, 
-		0, 
-		30 
+		75,
+		0,
+		30
 	  ),
 	  StateEffect( 
 		BLIND_EFFECT, 
 		{}, 
 		{ "blind_defense" }, 
 		{ "jedi_state_defense", "resistance_states" },
-		30, 
-		0, 
-		40 
+		100,
+		0,
+		30
 	  ),
 	  StateEffect( 
 		STUN_EFFECT, 
 		{}, 
 		{ "stun_defense" }, 
 		{ "jedi_state_defense", "resistance_states" },
-		30, 
+		75, 
 		0, 
 		30 
 	  )

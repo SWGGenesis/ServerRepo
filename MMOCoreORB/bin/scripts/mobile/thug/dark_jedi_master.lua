@@ -31,11 +31,11 @@ dark_jedi_master = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "power_crystals", chance = 1500000},
-				{group = "armor_attachments", chance = 2000000},
-				{group = "clothing_attachments", chance = 2000000},
-				{group = "named_color_crystals", chance = 3000000},
-				{group = "dark_jedi_common", chance = 1500000}
+				{group = "power_crystals", chance = 2500000},
+				{group = "armor_attachments", chance = 1500000},
+				{group = "clothing_attachments", chance = 3800000},
+				{group = "named_color_crystals", chance = 200000},
+				{group = "dark_jedi_common", chance = 2000000}
 			},
 			lootChance = 10000000
 		}

@@ -44,6 +44,7 @@
 DrainForceCommand = {
   name = "drainforce",
 	maxDamage = 250,
+	minDamage = 150,
 	forceCost = 50,
 	visMod = 25,
 	animation = "force_drain_1",

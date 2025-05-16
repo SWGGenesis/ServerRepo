@@ -1,3 +1,5 @@
 includeFile("merchants/house_merch.lua")
 includeFile("merchants/event_vendor.lua")
 includeFile("merchants/halloween_event_vendor.lua")
+includeFile("merchants/loot_box_vendor.lua")
+includeFile("merchants/distribution_vendor.lua")

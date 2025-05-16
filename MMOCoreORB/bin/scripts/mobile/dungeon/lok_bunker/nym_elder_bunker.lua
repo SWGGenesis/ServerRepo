@@ -29,18 +29,19 @@ nym_elder_bunker = Creature:new {
 	templates = {"object/mobile/dressed_nym_patrol_elite_rod_m.iff",
 		"object/mobile/dressed_nym_patrol_elite_hum_m.iff",
 		"object/mobile/dressed_nym_patrol_elite_nikto_m.iff"},
-	lootGroups = {
-		{
-			groups = {
-				{group = "junk", chance = 3500000},
-				{group = "nyms_common", chance = 1000000},
-				{group = "armor_attachments", chance = 2500000},
-				{group = "clothing_attachments", chance = 2500000},
-				{group = "tailor_components", chance = 500000}
-			},
-			lootChance = 4500000
-		}
-	},
+		lootGroups = {
+			{
+				groups = {
+					{group = "junk", chance = 2500000},
+					{group = "nyms_common", chance = 1000000},
+					{group = "armor_attachments", chance = 2500000},
+					{group = "clothing_attachments", chance = 2500000},
+					{group = "nym_slugthrower", chance = 1450000},
+					{group = "named_color_crystals", chance = 50000}
+				},
+				lootChance = 10000000
+			}
+		},
 	weapons = {"mixed_force_weapons"},
 	conversationTemplate = "",
 	reactionStf = "@npc_reaction/slang",

@@ -41,17 +41,14 @@
 --which carries forward this exception.
 
 --Determines how often exceptional and legendary items can drop.
-yellowChance = 250 -- 1 in 250
-exceptionalChance = 1000 --1 in 1000
-legendaryChance = 10000 --1 in 10,000
---yellowChance = 50 --1 in 50 for testing
---exceptionalChance = 100 --1 in 100 for testing
---legendaryChance = 1000 --1 in 1000 for testing
+yellowChance = 500 -- 1 in 500
+exceptionalChance = 10000 --1 in 10,000
+legendaryChance = 100000 --1 in 100,000
 
 --Determines how much of an increase in the base stats will be applied to the object.
 yellowModifier = 1.5
-exceptionalModifier = 2
-legendaryModifier = 3.5
+exceptionalModifier = 3
+legendaryModifier = 5
 
 --The chance for random skill mods to be on looted weapons/wearables
 skillModChance = 500 -- 1 in 500
@@ -74,6 +71,7 @@ lootableArmorAttachmentStatMods = {
 	"carbine_accuracy",
 	"carbine_hit_while_moving",
 	"carbine_speed",
+	"creature_harvesting",
 	"combat_bleeding_defense",
 	"counterattack",
 	"dizzy_defense",
@@ -86,9 +84,10 @@ lootableArmorAttachmentStatMods = {
 	"group_slope_move",
 	"heavy_rifle_lightning_accuracy",
 	"heavy_rifle_lightning_speed",
-	"heavyweapon_accuracy",
-	"heavyweapon_speed",
-	"keep_creature",
+	"heavy_flame_thrower_accuracy",
+	"heavy_rifle_acid_accuracy",
+	"intimidate_defense",
+	--"keep_creature",
 	"knockdown_defense",
 	"melee_defense",
 	"onehandmelee_accuracy",
@@ -128,7 +127,8 @@ lootableArmorAttachmentStatMods = {
 	"polearmlightsaber_accuracy",
 	"jedi_saber_experimentation",
 	"jedi_saber_assembly",
-	"absorption_poison"
+	"absorption_poison",
+	"taunt"
 }
 
 lootableClothingAttachmentStatMods = {
@@ -143,17 +143,18 @@ lootableClothingAttachmentStatMods = {
 	"carbine_hit_while_moving",
 	"carbine_speed",
 	"clothing_assembly",
-	"clothing_experimentation",
-	"clothing_repair",
+--	"clothing_experimentation",
+--	"clothing_repair",
 	"combat_bleeding_defense",
-	"combat_healing_ability",
+--	"combat_healing_ability",
 	"combat_medicine_assembly",
 	"combat_medicine_experimentation",
 	"counterattack",
+	"creature_harvesting",
 	"dizzy_defense",
 	"dodge",
 	"droid_assembly",
-	"droid_customization",
+--	"droid_customization",
 	"droid_experimentation",
 	"droid_find_chance",
 	"droid_find_speed",
@@ -164,10 +165,10 @@ lootableClothingAttachmentStatMods = {
 	"foraging",
 	"general_assembly",
 	"general_experimentation",
-	"grenade_assembly",
-	"grenade_experimentation",
+--	"grenade_assembly",
+--	"grenade_experimentation",
 	"group_slope_move",
-	"healing_ability",
+--	"healing_ability",
 	"healing_dance_mind",
 	"healing_dance_shock",
 	"healing_dance_wound",
@@ -182,9 +183,10 @@ lootableClothingAttachmentStatMods = {
 	"healing_wound_treatment",
 	"heavy_rifle_lightning_accuracy",
 	"heavy_rifle_lightning_speed",
-	"heavyweapon_accuracy",
-	"heavyweapon_speed",
-	"keep_creature",
+	"heavy_flame_thrower_accuracy",
+	"heavy_rifle_acid_accuracy",
+	"intimidate_defense",
+	--"keep_creature",
 	"knockdown_defense",
 	"medical_foraging",
 	"medicine_assembly",
@@ -235,7 +237,8 @@ lootableClothingAttachmentStatMods = {
 	"jedi_saber_assembly",
 	"absorption_poison",
 	"bio_engineer_assembly",
-	"bio_engineer_experimentation"
+	"bio_engineer_experimentation",
+	"taunt"
 }
 
 lootableArmorStatMods = {
@@ -253,8 +256,8 @@ lootableArmorStatMods = {
 	"carbine_hit_while_moving",
 	"carbine_speed",
 	"clothing_assembly",
-	"clothing_experimentation",
-	"clothing_repair",
+--	"clothing_experimentation",
+--	"clothing_repair",
 	"combat_bleeding_defense",
 	"combat_medicine_assembly",
 	"combat_medicine_experimentation",
@@ -275,8 +278,8 @@ lootableArmorStatMods = {
 	"foraging",
 	"general_assembly",
 	"general_experimentation",
-	"grenade_assembly",
-	"grenade_experimentation",
+--	"grenade_assembly",
+--	"grenade_experimentation",
 	"group_slope_move",
 	"healing_dance_mind",
 	"healing_dance_shock",
@@ -292,8 +295,8 @@ lootableArmorStatMods = {
 	"healing_wound_treatment",
 	"heavy_rifle_lightning_accuracy",
 	"heavy_rifle_lightning_speed",
-	"heavyweapon_accuracy",
-	"heavyweapon_speed",
+	"heavy_flame_thrower_accuracy",
+	"heavy_rifle_acid_accuracy",
 	"instrument_assembly",
 	"intimidate",
 	"intimidate_defense",
@@ -364,8 +367,8 @@ lootableClothingStatMods = {
 	"carbine_hit_while_moving",
 	"carbine_speed",
 	"clothing_assembly",
-	"clothing_experimentation",
-	"clothing_repair",
+--	"clothing_experimentation",
+--	"clothing_repair",
 	"combat_bleeding_defense",
 	"combat_medicine_assembly",
 	"combat_medicine_experimentation",
@@ -401,8 +404,8 @@ lootableClothingStatMods = {
 	"healing_range_speed",
 	"healing_wound_speed",
 	"healing_wound_treatment",
-	"heavy_rifle_lightning_accuracy",
-	"heavy_rifle_lightning_speed",
+	"heavy_flame_thrower_accuracy",
+	"heavy_rifle_acid_accuracy",
 	"heavyweapon_accuracy",
 	"heavyweapon_speed",
 	"instrument_assembly",

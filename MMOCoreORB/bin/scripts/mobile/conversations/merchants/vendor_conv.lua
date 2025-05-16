@@ -65,3 +65,15 @@ HalloweenEventVendorConvoTemplate = VendorConvoTemplate:new {
 }
 
 addConversationTemplate("HalloweenEventVendorConvoTemplate", HalloweenEventVendorConvoTemplate);
+
+LootBoxVendorConvoTemplate = VendorConvoTemplate:new {
+	luaClassHandler = "LootBoxVendorConvoHandler"
+}
+
+addConversationTemplate("LootBoxVendorConvoTemplate", LootBoxVendorConvoTemplate);
+
+DistributionVendorConvoTemplate = VendorConvoTemplate:new {
+	luaClassHandler = "DistributionVendorConvoHandler"
+}
+
+addConversationTemplate("DistributionVendorConvoTemplate", DistributionVendorConvoTemplate);

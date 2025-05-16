@@ -2,10 +2,10 @@
 gcwCheckTimer = 3600
 
 --Amount of time in seconds that a base will be vulnerable
-vulnerabilityDuration = 10800
+vulnerabilityDuration = 7200
 
 -- Amount of time in seconds between base vulnerabilities.
-vulnerabilityFrequency = 39600
+vulnerabilityFrequency = 82800
 
 powerSwitchCount = 7
 

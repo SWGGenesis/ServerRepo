@@ -44,7 +44,7 @@
 SprayShotCommand = {
         name = "sprayshot",
 
-	damageMultiplier = 4.0,
+	damageMultiplier = 6.0,
 	speedMultiplier = 3.5,
 	healthCostMultiplier = 1,
 	actionCostMultiplier = 1,
@@ -56,7 +56,7 @@ SprayShotCommand = {
 		{},
 		{ "dizzy_defense" },
 		{ "jedi_state_defense", "resistance_states" },
-		60,
+		80,
 		0,
 		30
 	  ),
@@ -74,7 +74,7 @@ SprayShotCommand = {
 		{},
 		{ "stun_defense" },
 		{ "jedi_state_defense", "resistance_states" },
-		30,
+		60,
 		0,
 		10
 	  )
@@ -84,7 +84,7 @@ SprayShotCommand = {
 	animType = GENERATE_RANGED,
 
 	combatSpam = "sprayshot",
-	weaponType = CARBINEWEAPON,
+	weaponType = RANGEDWEAPON,
 
 	range = -1
 }

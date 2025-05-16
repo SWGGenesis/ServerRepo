@@ -50,6 +50,8 @@ Saber2hSweep3Command = {
 	actionCostMultiplier = 0,
 	mindCostMultiplier = 0,
 	forceCostMultiplier = 2.25,
+	areaAction = true,
+	areaRange = 16,
 	visMod = 25,
 
 	stateEffects = {

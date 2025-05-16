@@ -37,7 +37,8 @@ singing_mountain_clan_councilwoman = Creature:new {
 				{group = "armor_attachments", chance = 400000},
 				{group = "clothing_attachments", chance = 400000},
 				{group = "wearables_uncommon", chance = 1500000},
-				{group = "wearables_rare", chance = 700000}
+				{group = "wearables_rare", chance = 650000},
+				{group = "named_color_crystals", chance = 50000}
 			}
 		}
 	},

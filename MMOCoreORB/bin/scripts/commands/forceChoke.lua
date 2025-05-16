@@ -45,12 +45,12 @@ ForceChokeCommand = {
 	name = "forcechoke",
 
 	minDamage = 175,
-	maxDamage = 375,
+	maxDamage = 675,
 	speed = 4.0,
 	forceCost = 400,
 	visMod = 25,
 	forceAttack = true,
-	accuracyBonus = 95,
+	accuracyBonus = 275,
 
 	animation = "force_choke_1_particle_level_1",
 	animType = GENERATE_INTENSITY,

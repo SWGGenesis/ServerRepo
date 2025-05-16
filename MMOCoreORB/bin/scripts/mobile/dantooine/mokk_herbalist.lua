@@ -35,7 +35,7 @@ mokk_herbalist = Creature:new {
 			groups = {
 				{group = "junk", chance = 3500000},
 				{group = "loot_kit_parts", chance = 3000000},
-				{group = "armor_attachments", chance = 500000},
+				{group = "mokk_rare", chance = 500000},
 				{group = "clothing_attachments", chance = 500000},
 				{group = "wearables_common", chance = 1000000},
 				{group = "wearables_uncommon", chance = 1000000},
