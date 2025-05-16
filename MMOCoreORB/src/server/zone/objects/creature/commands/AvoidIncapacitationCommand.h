@@ -12,7 +12,7 @@ class AvoidIncapacitationCommand : public JediQueueCommand {
 protected:
 	String skillName = "avoidIncapacitation";		// Skill Name
 	String skillNameDisplay = "Avoid Incap";		// Skill Display Name for output message
-	int delay = 75; 								//  15 second cool down timer
+	int delay = 105; 								//  15 second cool down timer
 
 
 public:

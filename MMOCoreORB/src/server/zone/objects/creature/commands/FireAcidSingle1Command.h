@@ -24,7 +24,7 @@ public:
 
 		ManagedReference<WeaponObject*> weapon = creature->getWeapon();
 
-		if (!weapon->isHeavyAcidRifle())
+		if (!weapon->isHeavyAcidRifle() && !weapon->isHeavyCarboniteRifle() && !weapon->isHeavyMandalorian())
 			return INVALIDWEAPON;
 
 		return doCombatAction(creature, target);

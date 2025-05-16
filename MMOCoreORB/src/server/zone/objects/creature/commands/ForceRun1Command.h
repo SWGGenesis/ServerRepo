@@ -16,7 +16,7 @@ public:
 		buffCRC = BuffCRC::JEDI_FORCE_RUN_1;
     
         // If these are active they will block buff use
-		blockingCRCs.add(BuffCRC::JEDI_FORCE_RUN_2);
+	//	blockingCRCs.add(BuffCRC::JEDI_FORCE_RUN_2);
 		blockingCRCs.add(BuffCRC::JEDI_FORCE_RUN_3);
     
     
@@ -33,10 +33,9 @@ public:
 		}
 		int res = creature->hasBuff(buffCRC) ? NOSTACKJEDIBUFF : doJediSelfBuffCommand(creature);
 
-		if (res == NOSTACKJEDIBUFF) {
-			creature->sendSystemMessage("@jedi_spam:already_force_running"); // You are already force running.
-			return GENERALERROR;
-		}
+        if (creature->hasBuff(BuffCRC::JEDI_FORCE_RUN_2)) {
+        	creature->removeBuff(BuffCRC::JEDI_FORCE_RUN_2);
+        }
 		
 		// Return if something is in error.
 		if (res != SUCCESS) {

@@ -13,7 +13,7 @@ class ForceRun2Command : public JediQueueCommand {
 protected:
 	String skillName = "forcerun2";		// Skill Name
 	String skillNameDisplay = "ForceRun 2";		// Skill Display Name for output message
-	int delay = 45; 								//  45 second cool down timer
+	int delay = 10; 								//  10 second cool down timer
 
 public:
 
@@ -23,7 +23,7 @@ public:
 		buffCRC = BuffCRC::JEDI_FORCE_RUN_2;
 
         // If these are active they will block buff use
-		blockingCRCs.add(BuffCRC::JEDI_FORCE_RUN_1);
+//		blockingCRCs.add(BuffCRC::JEDI_FORCE_RUN_1);
 		blockingCRCs.add(BuffCRC::JEDI_FORCE_RUN_3);
         
 		skillMods.put("force_run", 2);

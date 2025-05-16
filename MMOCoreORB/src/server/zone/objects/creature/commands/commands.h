@@ -840,8 +840,9 @@
 #include "InspacerrCommand.h"
 #include "RequestSpaceTrainerCommand.h"
 #include "PackupStructureCommand.h"
-
-
+#include "DroidRechargeCommand.h"
+#include "DelegateGcwCommand.h"
+#include "RemoveTrainerCommand.h"
 
 
 #endif /* COMMANDSNEW_H_ */

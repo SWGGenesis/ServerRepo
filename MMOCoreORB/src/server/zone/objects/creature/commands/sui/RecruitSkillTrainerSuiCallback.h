@@ -159,6 +159,15 @@ public:
 				break;
 
 		case 33: trainerTemplatePath = "trainer_basebuster";
+				break;
+
+		case 34: trainerTemplatePath = "trainer_imperial";
+        		break;
+
+		case 35: trainerTemplatePath = "trainer_rebel";
+				break;
+		
+		case 36: trainerTemplatePath = "trainer_spynet";
 
 		}
 

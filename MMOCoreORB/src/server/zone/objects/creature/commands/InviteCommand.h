@@ -63,7 +63,7 @@ public:
 
 		if (object->isPlayerCreature()) {
 			CreatureObject* player = cast<CreatureObject*>( object.get());
-			creature->playEffect("clienteffect/player_clone_compile.cef", "");
+//			creature->playEffect("clienteffect/player_clone_compile.cef", "");
 
 			if (!player->getPlayerObject()->isIgnoring(creature->getFirstName().toLowerCase()) || godMode)
 				groupManager->inviteToGroup(creature, player);

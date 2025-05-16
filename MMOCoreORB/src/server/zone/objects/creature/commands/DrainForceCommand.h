@@ -74,7 +74,7 @@ public:
 				forceEnh = creature->getSkillMod("force_enhancement_dark");
 			}
 
-			maxDrain = maxDrain + (forceEnh * 7.5);
+			maxDrain = maxDrain + (forceEnh * 6.25);
 
 			int targetForce = targetGhost->getForcePower();
 			if (targetForce <= 0) {
